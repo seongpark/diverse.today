@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'IBMPlexSansKR-Regular'!important;
+}
+
+body {
+    font-family: 'IBMPlexSansKR-Regular' !important;
+}
+
+/* 메인부분 CSS */
+.div1 {
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+
+.footer {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fafafa;
+}
+
+.card {
+    border-radius: 13px!important;
+}
+
+/* 미사용 CSS들
+.pop-up {
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 19px;
+    box-shadow: 0 11px 14px 9px rgb(0 0 0 / 28%);
+    border-radius: 15px 15px 0 0;
+}
+
+.notice {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #FA5858;
+    color: white;
+}
+*/
+
+.profile {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    margin-right: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
